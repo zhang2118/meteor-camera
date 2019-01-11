@@ -24,7 +24,7 @@ Template.viewfinder.rendered = function() {
     if (navigator.mozGetUserMedia) {
       video.mozSrcObject = stream;
     } else {
-      video.src = stream;
+      video.srcObject = stream;
     }
     video.play();
 
