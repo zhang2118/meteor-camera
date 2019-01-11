@@ -1,8 +1,8 @@
 Package.describe({
-  name: "meteor:camera",
+  name: "instant:meteor-camera",
   summary: "Photos with one function call on desktop and mobile.",
   version: "1.4.2",
-  git: "https://github.com/meteor/mobile-packages"
+  git: "https://github.com/zhang2118/meteor-camera.git"
 });
 
 Cordova.depends({
